@@ -1,129 +1,96 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TripMaker</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- <link
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TripMaker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <!-- <link
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
       rel="stylesheet"
     /> -->
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-      crossorigin="anonymous"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
-      rel="stylesheet"
-    />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet" />
 
-    <!-- OWL-JS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-    />
+  <!-- OWL-JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-      crossorigin="anonymous"
-    />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
 
-    <!-- <link
+  <!-- <link
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css"
       rel="stylesheet"
     /> -->
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <link rel="stylesheet" href="style2.css" />
-  </head>
-  <body>
-    <header>
-      <div class="navbar-wrapper">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid ms-auto">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link disabled"
-                    href="#"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >Disabled</a
-                  >
-                </li>
-              </ul>
-            </div>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+  <header>
+    <div class="navbar-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid ms-auto">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
+    </div>
 
-      <!-- <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <!-- <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
         <div class="container"> -->
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <!-- <div class="navbar-header">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <!-- <div class="navbar-header">
             <button
               type="button"
               class="navbar-toggle collapsed"
@@ -139,8 +106,8 @@
             <a class="navbar-brand" href="#">TripMaker</a>
           </div> -->
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <!-- <div
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- <div
             class="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
           >
@@ -155,156 +122,93 @@
         </div>
       </nav> -->
 
-      <!-- carousel -->
+    <!-- carousel -->
 
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <!-- Indicators -->
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
 
-        <!-- Wrapper for slides -->
+      <!-- Wrapper for slides -->
 
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <div
-              class="banner"
-              style="
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="banner" style="
                 background-image: url(https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
                 background-attachment: fixed;
                 background-position: center;
                 background-repeat: no-repeat;
-              "
-            ></div>
-            <div class="carousel-caption">
-              <h2
-                class="animate__animated animate__fadeIn"
-                style="animation-delay: 1s"
-              >
-                Bogda Peak
-              </h2>
-              <h3
-                class="animate__animated animate__fadeIn"
-                style="animation-delay: 2s"
-              >
-                An Epitome Of Magnificence
-              </h3>
-              <p
-                class="animate__animated animate__fadeIn"
-                style="animation-delay: 3s"
-              >
-                <br />
-                <button
-                  type="button"
-                  class="contact-button btn btn-primary btn-lg"
-                >
-                  Book Now
-                </button>
-              </p>
-            </div>
+              "></div>
+          <div class="carousel-caption">
+            <h2 class="animate__animated animate__fadeIn" style="animation-delay: 1s">
+              Bogda Peak
+            </h2>
+            <h3 class="animate__animated animate__fadeIn" style="animation-delay: 2s">
+              An Epitome Of Magnificence
+            </h3>
+            <p class="animate__animated animate__fadeIn" style="animation-delay: 3s">
+              <br />
+              <button type="button" class="contact-button btn btn-primary btn-lg">
+                Book Now
+              </button>
+            </p>
           </div>
+        </div>
 
-          <div class="carousel-item">
-            <div
-              class="banner"
-              style="
+        <div class="carousel-item">
+          <div class="banner" style="
                 background-attachment: fixed;
                 background-position: center;
                 background-repeat: no-repeat;
                 background-image: url(https://images.pexels.com/photos/2331569/pexels-photo-2331569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-              "
-            ></div>
-            <div class="carousel-caption">
-              <h2
-                class="animate__animated animate__fadeIn"
-                style="animation-delay: 1s"
-              >
-                Mauna Kea
-              </h2>
-              <h3
-                class="animate__animated animate__fadeIn"
-                style="animation-delay: 1s"
-              >
-                The Gem Of Pacific Ocean
-              </h3>
-              <p
-                class="animate__animated animate__fadeIn"
-                style="animation-delay: 3s"
-              >
-                <br />
-                <button
-                  type="button"
-                  class="contact-button btn btn-primary btn-lg"
-                >
-                  Book Now
-                </button>
-              </p>
-            </div>
+              "></div>
+          <div class="carousel-caption">
+            <h2 class="animate__animated animate__fadeIn" style="animation-delay: 1s">
+              Mauna Kea
+            </h2>
+            <h3 class="animate__animated animate__fadeIn" style="animation-delay: 1s">
+              The Gem Of Pacific Ocean
+            </h3>
+            <p class="animate__animated animate__fadeIn" style="animation-delay: 3s">
+              <br />
+              <button type="button" class="contact-button btn btn-primary btn-lg">
+                Book Now
+              </button>
+            </p>
           </div>
-          <div class="carousel-item">
-            <div
-              class="banner"
-              style="
+        </div>
+        <div class="carousel-item">
+          <div class="banner" style="
                 background-attachment: fixed;
                 background-position: center;
                 background-repeat: no-repeat;
                 background-image: url(https://images.pexels.com/photos/4101555/pexels-photo-4101555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-              "
-            ></div>
-            <div class="carousel-caption">
-              <h2
-                class="animate__animated animate__fadeIn"
-                style="animation-delay: 1s"
-              >
-                Swiss Alps
-              </h2>
-              <h3
-                class="animate__animated animate__fadeIn"
-                style="animation-delay: 1s"
-              >
-                The Magical Mountains Of Switzerland
-              </h3>
-              <p
-                class="animate__animated animate__fadeIn"
-                style="animation-delay: 2s"
-              >
-                <br />
-                <button
-                  type="button"
-                  class="contact-button btn btn-primary btn-lg"
-                >
-                  Book Now
-                </button>
-              </p>
-            </div>
+              "></div>
+          <div class="carousel-caption">
+            <h2 class="animate__animated animate__fadeIn" style="animation-delay: 1s">
+              Swiss Alps
+            </h2>
+            <h3 class="animate__animated animate__fadeIn" style="animation-delay: 1s">
+              The Magical Mountains Of Switzerland
+            </h3>
+            <p class="animate__animated animate__fadeIn" style="animation-delay: 2s">
+              <br />
+              <button type="button" class="contact-button btn btn-primary btn-lg">
+                Book Now
+              </button>
+            </p>
           </div>
         </div>
+      </div>
 
-        <!-- Controls -->
-        <!-- <a
+      <!-- Controls -->
+      <!-- <a
           class="left carousel-control"
           href="#carousel-example-generic"
           role="button"
@@ -328,211 +232,161 @@
           ></span>
           <span class="sr-only">Next</span>
         </a> -->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </header>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
 
-    <section>
-      <div class="popular">
-        <div class="popular-heading">
-          <h1>Most Popular Tours</h1>
-        </div>
-        <div class="popular-slides">
-          <div class="owl-carousel">
-            <div class="tour-card">
-              <div class="container">
-                <div class="row">
-                  <div>
-                    <div class="card">
-                      <img
-                        class="card-img"
-                        src="https://images.unsplash.com/photo-1488711500009-f9111944b1ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
-                        alt="Bologna"
-                      />
-                      <div
-                        class="card-img-overlay text-white d-flex flex-column justify-content-end"
-                      >
-                        <h4 class="card-title">Bologna</h4>
-                        <h6 class="card-subtitle mb-2">
-                          Emilia-Romagna Region, India
-                        </h6>
-                        <p class="card-text">
-                          It is the seventh most populous city in Italy, at the
-                          heart of a metropolitan area of about one million
-                          people.
-                        </p>
-                        <div class="link d-flex">
-                          <a href="#" class="card-link text-warning"
-                            >Read More</a
-                          >
-                          <a href="#" class="card-link text-warning"
-                            >Book a Trip</a
-                          >
-                        </div>
+  <section>
+    <div class="popular">
+      <div class="popular-heading">
+        <h1>Most Popular Tours</h1>
+      </div>
+      <div class="popular-slides">
+        <div class="owl-carousel">
+          <div class="tour-card">
+            <div class="container">
+              <div class="row">
+                <div>
+                  <div class="card">
+                    <img class="card-img"
+                      src="https://images.unsplash.com/photo-1488711500009-f9111944b1ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
+                      alt="Bologna" />
+                    <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                      <h4 class="card-title">Bologna</h4>
+                      <h6 class="card-subtitle mb-2">
+                        Emilia-Romagna Region, India
+                      </h6>
+                      <p class="card-text">
+                        It is the seventh most populous city in Italy, at the
+                        heart of a metropolitan area of about one million
+                        people.
+                      </p>
+                      <div class="link d-flex">
+                        <a href="#" class="card-link text-warning">Read More</a>
+                        <a href="#" class="card-link text-warning">Book a Trip</a>
                       </div>
                     </div>
                   </div>
-                  <!-- <img
+                </div>
+                <!-- <img
                     class="card-img-shadow"
                     src="https://images.unsplash.com/photo-1488711500009-f9111944b1ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
                     alt="Bologna"
                   /> -->
-                </div>
               </div>
             </div>
+          </div>
 
-            <div class="tour-card">
-              <div class="container">
-                <div class="row">
-                  <div>
-                    <div class="card">
-                      <img
-                        class="card-img"
-                        src="https://images.unsplash.com/photo-1548013146-72479768bada?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80"
-                        alt="Bologna"
-                      />
-                      <div
-                        class="card-img-overlay text-white d-flex flex-column justify-content-end"
-                      >
-                        <h4 class="card-title">Bologna</h4>
-                        <h6 class="card-subtitle mb-2">
-                          Emilia-Romagna Region, Italy
-                        </h6>
-                        <p class="card-text">
-                          It is the seventh most populous city in Italy, at the
-                          heart of a metropolitan area of about one million
-                          people.
-                        </p>
-                        <div class="link d-flex">
-                          <a href="#" class="card-link text-warning"
-                            >Read More</a
-                          >
-                          <a href="#" class="card-link text-warning"
-                            >Book a Trip</a
-                          >
-                        </div>
+          <div class="tour-card">
+            <div class="container">
+              <div class="row">
+                <div>
+                  <div class="card">
+                    <img class="card-img"
+                      src="https://images.unsplash.com/photo-1548013146-72479768bada?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80"
+                      alt="Bologna" />
+                    <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                      <h4 class="card-title">Bologna</h4>
+                      <h6 class="card-subtitle mb-2">
+                        Emilia-Romagna Region, Italy
+                      </h6>
+                      <p class="card-text">
+                        It is the seventh most populous city in Italy, at the
+                        heart of a metropolitan area of about one million
+                        people.
+                      </p>
+                      <div class="link d-flex">
+                        <a href="#" class="card-link text-warning">Read More</a>
+                        <a href="#" class="card-link text-warning">Book a Trip</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tour-card">
-              <div class="container">
-                <div class="row">
-                  <div>
-                    <div class="card">
-                      <img
-                        class="card-img"
-                        src="https://images.unsplash.com/photo-1529963183134-61a90db47eaf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                        alt="Bologna"
-                      />
-                      <div
-                        class="card-img-overlay text-white d-flex flex-column justify-content-end"
-                      >
-                        <h4 class="card-title">Bologna</h4>
-                        <h6 class="card-subtitle mb-2">
-                          Emilia-Romagna Region, Italy
-                        </h6>
-                        <p class="card-text">
-                          It is the seventh most populous city in Italy, at the
-                          heart of a metropolitan area of about one million
-                          people.
-                        </p>
-                        <div class="link d-flex">
-                          <a href="#" class="card-link text-warning"
-                            >Read More</a
-                          >
-                          <a href="#" class="card-link text-warning"
-                            >Book a Trip</a
-                          >
-                        </div>
+          </div>
+          <div class="tour-card">
+            <div class="container">
+              <div class="row">
+                <div>
+                  <div class="card">
+                    <img class="card-img"
+                      src="https://images.unsplash.com/photo-1529963183134-61a90db47eaf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                      alt="Bologna" />
+                    <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                      <h4 class="card-title">Bologna</h4>
+                      <h6 class="card-subtitle mb-2">
+                        Emilia-Romagna Region, Italy
+                      </h6>
+                      <p class="card-text">
+                        It is the seventh most populous city in Italy, at the
+                        heart of a metropolitan area of about one million
+                        people.
+                      </p>
+                      <div class="link d-flex">
+                        <a href="#" class="card-link text-warning">Read More</a>
+                        <a href="#" class="card-link text-warning">Book a Trip</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tour-card">
-              <div class="container">
-                <div class="row">
-                  <div>
-                    <div class="card">
-                      <img
-                        class="card-img"
-                        src="https://images.unsplash.com/photo-1461696114087-397271a7aedc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                        ,
-                        alt="Bologna"
-                      />
-                      <div
-                        class="card-img-overlay text-white d-flex flex-column justify-content-end"
-                      >
-                        <h4 class="card-title">Bologna</h4>
-                        <h6 class="card-subtitle mb-2">
-                          Emilia-Romagna Region, Italy
-                        </h6>
-                        <p class="card-text">Lore</p>
-                        <div class="link d-flex">
-                          <a href="#" class="card-link text-warning"
-                            >Read More</a
-                          >
-                          <a href="#" class="card-link text-warning"
-                            >Book a Trip</a
-                          >
-                        </div>
+          </div>
+          <div class="tour-card">
+            <div class="container">
+              <div class="row">
+                <div>
+                  <div class="card">
+                    <img class="card-img"
+                      src="https://images.unsplash.com/photo-1461696114087-397271a7aedc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                      , alt="Bologna" />
+                    <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                      <h4 class="card-title">Bologna</h4>
+                      <h6 class="card-subtitle mb-2">
+                        Emilia-Romagna Region, Italy
+                      </h6>
+                      <p class="card-text">Lore</p>
+                      <div class="link d-flex">
+                        <a href="#" class="card-link text-warning">Read More</a>
+                        <a href="#" class="card-link text-warning">Book a Trip</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tour-card">
-              <div class="container">
-                <div class="row">
-                  <div>
-                    <div class="card">
-                      <img
-                        class="card-img"
-                        src="https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                        alt="Bologna"
-                      />
-                      <div
-                        class="card-img-overlay text-white d-flex flex-column justify-content-end"
-                      >
-                        <h4 class="card-title">Bologna</h4>
-                        <h6 class="card-subtitle mb-2">
-                          Emilia-Romagna Region, Italy
-                        </h6>
-                        <p class="card-text">
-                          It is the seventh most populous city in Italy, at the
-                          heart of a metropolitan area of about one million
-                          people.
-                        </p>
-                        <div class="link d-flex">
-                          <a href="#" class="card-link text-warning"
-                            >Read More</a
-                          >
-                          <a href="#" class="card-link text-warning"
-                            >Book a Trip</a
-                          >
-                        </div>
+          </div>
+          <div class="tour-card">
+            <div class="container">
+              <div class="row">
+                <div>
+                  <div class="card">
+                    <img class="card-img"
+                      src="https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                      alt="Bologna" />
+                    <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                      <h4 class="card-title">Bologna</h4>
+                      <h6 class="card-subtitle mb-2">
+                        Emilia-Romagna Region, Italy
+                      </h6>
+                      <p class="card-text">
+                        It is the seventh most populous city in Italy, at the
+                        heart of a metropolitan area of about one million
+                        people.
+                      </p>
+                      <div class="link d-flex">
+                        <a href="#" class="card-link text-warning">Read More</a>
+                        <a href="#" class="card-link text-warning">Book a Trip</a>
                       </div>
                     </div>
                   </div>
@@ -542,128 +396,296 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <section>
-      <div class="top-dest">
-        <div class="top-heading">
-          <h1>Top Destinations</h1>
+    </div>
+  </section>
+  <!-- 
+  <section>
+    <div class="top-dest">
+      <div class="top-heading">
+        <h1>Top Destinations</h1>
+      </div>
+      <div class="dest-gallery">
+        <div class="image-box">
+          <img
+            src="https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="" />
         </div>
-        <div class="dest-gallery">
-          <div class="image-box">
-            <img
-              src="https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
-          </div>
-          <div class="image-box">
-            <img src="" alt="" />
-          </div>
+        <div class="image-box">
+          <img src="" alt="" />
+        </div>
 
-          <div class="image-box">
-            <img
-              src="https://images.pexels.com/photos/789555/pexels-photo-789555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
-          </div>
-          <div class="image-box">
-            <img
-              src="https://images.pexels.com/photos/3761178/pexels-photo-3761178.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
-          </div>
-          <div class="image-box">
-            <img
-              src="https://images.pexels.com/photos/343701/pexels-photo-343701.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
-          </div>
-          <div class="image-box">
-            <img
-              src="https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
-          </div>
-          <div class="image-box">
-            <img src="" alt="" />
-          </div>
+        <div class="image-box">
+          <img
+            src="https://images.pexels.com/photos/789555/pexels-photo-789555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="" />
+        </div>
+        <div class="image-box">
+          <img
+            src="https://images.pexels.com/photos/3761178/pexels-photo-3761178.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="" />
+        </div>
+        <div class="image-box">
+          <img
+            src="https://images.pexels.com/photos/343701/pexels-photo-343701.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="" />
+        </div>
+        <div class="image-box">
+          <img
+            src="https://images.pexels.com/photos/3493777/pexels-photo-3493777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="" />
+        </div>
+        <div class="image-box">
+          <img src="" alt="" />
+        </div>
 
-          <div class="image-box">
-            <img
-              src="https://images.pexels.com/photos/789555/pexels-photo-789555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
+        <div class="image-box">
+          <img
+            src="https://images.pexels.com/photos/789555/pexels-photo-789555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="" />
+        </div>
+        <div class="image-box">
+          <img
+            src="https://images.pexels.com/photos/3761178/pexels-photo-3761178.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="" />
+        </div>
+        <div class="image-box">
+          <img
+            src="https://images.pexels.com/photos/343701/pexels-photo-343701.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="" />
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- <section>
+    <div class="booking-wrap">
+      <div class="booking-box">
+        <div class="booking-content">
+          <div class="destination-wrap">
+            <h2>Destination</h2>
+            <select name="" id="">
+              <option value="India "></option>
+              <option value="USA"></option>
+              <option value="Africa"></option>
+              <option value="Paris"></option>
+              <option value="Nepal"></option>
+              <option value="Bhutan"></option>
+              <option value="Sri Lanka"></option>
+              <option value="Australia"></option>
+              <option value="Russia"></option>
+            </select>
           </div>
-          <div class="image-box">
-            <img
-              src="https://images.pexels.com/photos/3761178/pexels-photo-3761178.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
+          <div class="check-in">
+            <h2>Check In</h2>
           </div>
-          <div class="image-box">
-            <img
-              src="https://images.pexels.com/photos/343701/pexels-photo-343701.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
+          <div class="check-out">
+            <h2>Check Out</h2>
+          </div>
+          <div class="adult">
+            <h2>Adult</h2>
+          </div>
+          <div class="children">
+            <h2>Children</h2>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section> -->
 
-    <!-- <section>
-      <div class="booking-wrap">
-        <div class="booking-box">
-          <div class="booking-content">
-            <div class="destination-wrap">
-              <h2>Destination</h2>
-              <select name="" id="">
-                <option value="India "></option>
-                <option value="USA"></option>
-                <option value="Africa"></option>
-                <option value="Paris"></option>
-                <option value="Nepal"></option>
-                <option value="Bhutan"></option>
-                <option value="Sri Lanka"></option>
-                <option value="Australia"></option>
-                <option value="Russia"></option>
-              </select>
-            </div>
-            <div class="check-in">
-              <h2>Check In</h2>
-            </div>
-            <div class="check-out">
-              <h2>Check Out</h2>
-            </div>
-            <div class="adult">
-              <h2>Adult</h2>
-            </div>
-            <div class="children">
-              <h2>Children</h2>
+  <!-- 
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="booking-wrap">
+            <div class="booking-box">
+              <div class="booking-content">
+                <div class="destination-wrap">
+                  <h2>Destination</h2>
+                  <select name="country" id="1">
+                    <option value="India "></option>
+                    <option value="USA"></option>
+                    <option value="Africa"></option>
+                    <option value="Paris"></option>
+                    <option value="Nepal"></option>
+                    <option value="Bhutan"></option>
+                    <option value="Sri Lanka"></option>
+                    <option value="Australia"></option>
+                    <option value="Russia"></option>
+                  </select>
+                </div>
+                <div class="check-in">
+                  <h2>Check In</h2>
+                </div>
+                <div class="check-out">
+                  <h2>Check Out</h2>
+                </div>
+                <div class="adult">
+                  <h2>Adult</h2>
+                </div>
+                <div class="children">
+                  <h2>Children</h2>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
-    </section> -->
+    </div>
+  </section> -->
 
-    <!-- bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
-    <!-- jquery -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      crossorigin="anonymous"
-    ></script>
 
-    <!-- OWL JS -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="/js/main.js"></script>
-  </body>
+
+
+  <section>
+    <div class="container mx-auto">
+      <div class="row align-items-center booking-box">
+        <div class="col-md-4  justify-content-around">
+          <div class="destination-wrap">
+            <h2>Destination</h2>
+
+            <select class="form-select booking-select" aria-label="Default select example">
+              <option selected>Select Destination</option>
+              <option value="India "></option>
+              <option value="USA"></option>
+              <option value="Africa"></option>
+              <option value="Paris"></option>
+              <option value="Nepal"></option>
+              <option value="Bhutan"></option>
+              <option value="Sri Lanka"></option>
+              <option value="Australia"></option>
+              <option value="Russia"></option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="check-in">
+            <h2>Check In</h2>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="check-out">
+            <h2>Check Out</h2>
+          </div>
+
+        </div>
+        <div class="col-md-2">
+          <div class="adult">
+            <h2>Adult</h2>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="children">
+            <h2>Children</h2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- gallery -->
+
+  <section>
+    <div class="dest-gallery">
+      <!-- <h2>Top Destinations</h2>
+      <br> -->
+      <div class="container-fluid top-dest-wrapper">
+        <div class="row ">
+
+          <div class="col-lg-3 col-md-6 col-sm-6 justify-content-center">
+            <div class="image-box">
+              <img
+                src="https://images.pexels.com/photos/789555/pexels-photo-789555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="image-box">
+              <img
+                src="https://images.pexels.com/photos/343701/pexels-photo-343701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="image-box">
+              <img
+                src="https://images.pexels.com/photos/105808/pexels-photo-105808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="image-box">
+              <img
+                src="https://images.pexels.com/photos/998723/pexels-photo-998723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="row ">
+
+          <div class="col-lg-3 col-md-6 col-sm-6 justify-content-center">
+            <div class="image-box">
+              <img
+                src="https://images.pexels.com/photos/848573/pexels-photo-848573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="image-box">
+              <img
+                src="https://images.pexels.com/photos/2215380/pexels-photo-2215380.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="image-box">
+              <img
+                src="https://images.pexels.com/photos/4456133/pexels-photo-4456133.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="image-box">
+              <img
+                src="https://images.pexels.com/photos/7434805/pexels-photo-7434805.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+    </div>
+
+    </div>
+
+    </div>
+  </section>
+
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+
+  <!-- OWL JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+  <script src="/js/main.js"></script>
+</body>
+
 </html>

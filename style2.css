@@ -1,7 +1,11 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /* global styles */
 
 /*responsive css*/
@@ -206,13 +210,13 @@ body {
 /* booking box */
 
 .booking-box {
-  width: 80%;
   background-color: #0030d0;
-  height: 30vh;
+  height: 35vh;
   margin: 4rem auto;
   border-radius: 20px;
+  padding: 2rem;
 }
-
+/* 
 .booking-content {
   padding: 3rem;
   display: flex;
@@ -221,9 +225,8 @@ body {
   color: #fff;
   font-family: Georgia, "Times New Roman", Times, serif;
   /* align-items: ; */
-}
 
-.destination-wrap {
+/* .destination-wrap {
   height: 4rem;
   border: 0;
 
@@ -247,8 +250,43 @@ body {
 
 .destination-wrap > select > option {
   color: black;
+} */
+
+select {
+  color: black !important;
+}
+select option {
+  color: black !important;
+}
+select option:first-child {
+  color: black !important;
 }
 
-select option {
-  color: black;
+.booking-select {
+  width: 50%;
+}
+
+.booking-box {
+  color: white;
+}
+
+/* .dest-gallery */
+
+.dest-gallery {
+  /* padding: 0rem 2rem; */
+}
+
+.image-box {
+  margin: 2rem 0rem;
+}
+
+.image-box img {
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  display: block;
+}
+
+.top-dest-wrapper {
+  margin: 0px 5rem !important;
 }
