@@ -1,0 +1,254 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* global styles */
+
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    padding-bottom: 350px;
+  }
+  .carousel-caption h2 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-inverse .navbar-brand {
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption {
+    padding-bottom: 120px;
+  }
+  .carousel-caption h2 {
+    font-size: 25px;
+  }
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+  .carousel-caption a {
+    padding: 10px 25px;
+  }
+}
+
+/* nav-bar */
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-size: 40px;
+  padding: 40px 15px;
+  font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+  margin: 25px 0;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 2rem;
+  color: black;
+  text-transform: uppercase;
+}
+.banner {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+/* #carouselExampleIndicators {
+  position: absolute;
+  width: 100%;
+  top: 0;
+} */
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.nav-item {
+  padding: 0rem 3rem;
+}
+.nav-link {
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+/* carousel  */
+.carousel-caption {
+  padding-bottom: 250px;
+  font-family: poppins;
+}
+.carousel-caption h2 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.carousel-caption h2 span {
+  color: #fff;
+}
+.carousel-caption a {
+  background: #d03000;
+  padding: 15px 35px;
+  display: inline-block;
+  margin-top: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+.carousel-control.right {
+  background-image: none;
+}
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-indicators .active {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.carousel-caption {
+  position: absolute;
+  text-align: center;
+}
+
+.carousel-caption h2 {
+  font-size: 50px;
+  font-family: "Prata", serif;
+  letter-spacing: 1.2rem;
+  font-weight: 600;
+}
+
+/* popular cards */
+.popular-heading {
+  font-family: "Prata", serif;
+  padding: 4rem;
+  font-weight: 800;
+}
+
+.card-img {
+  overflow: hidden;
+  border-radius: 20px;
+  height: 330px !important;
+  object-fit: cover;
+}
+
+.card-img-overlay {
+  background-color: rgba(#000, 0.4);
+}
+
+/* .card-img-shadow {
+  position: absolute;
+  top: 10px;
+  left: -2px;
+  right: -2px;
+  bottom: -10px;
+  z-index: -1;
+  opacity: 1;
+  width: auto;
+  transition: all 0.21s ease-out;
+  will-change: opacity;
+  height: 400px !important;
+  padding: 0;
+  filter: blur(10px);
+  /* overflow: auto;} */
+
+/* top dest cards */
+.top-heading {
+  font-family: "Prata", serif;
+  padding: 4rem;
+  font-weight: 800;
+}
+
+.dest-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: auto;
+  /* padding: 0rem 4rem; */
+  justify-content: center;
+}
+/* .image-box {
+  padding: 2rem 0re;
+}
+*/
+/* .dest-gallery > img {
+  width: 20%;
+  margin: 1rem;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.dest-gallery > img :hover {
+  opacity: 1;
+  scale: 1;
+} */
+
+.image-box > img {
+  width: 40%;
+}
+/* booking box */
+
+.booking-box {
+  width: 80%;
+  background-color: #0030d0;
+  height: 30vh;
+  margin: 4rem auto;
+  border-radius: 20px;
+}
+
+.booking-content {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* align-items: ; */
+}
+
+.destination-wrap {
+  height: 4rem;
+  border: 0;
+
+  font-size: 21px;
+
+  font-weight: 400;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  z-index: 1;
+  padding-left: 24px;
+  padding-right: 45px;
+}
+
+.destination-wrap > select {
+  padding: 0.5rem 4rem;
+  color: black;
+}
+
+.destination-wrap > select > option {
+  color: black;
+}
+
+select option {
+  color: black;
+}
