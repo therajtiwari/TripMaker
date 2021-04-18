@@ -30,7 +30,9 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
   <!-- <link
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css"
       rel="stylesheet"
@@ -544,49 +546,85 @@
 
 
   <section>
-    <div class="container mx-auto">
+    <div class="container-fluid  ">
       <div class="row align-items-center booking-box">
-        <div class="col-md-4  justify-content-around">
+        <div class="col-md-3  justify-content-around">
+
           <div class="destination-wrap">
             <h2>Destination</h2>
 
-            <select class="form-select booking-select" aria-label="Default select example">
-              <option selected>Select Destination</option>
-              <option value="India "></option>
-              <option value="USA"></option>
-              <option value="Africa"></option>
-              <option value="Paris"></option>
-              <option value="Nepal"></option>
-              <option value="Bhutan"></option>
-              <option value="Sri Lanka"></option>
-              <option value="Australia"></option>
-              <option value="Russia"></option>
-            </select>
+            <div class="form-group">
+              <select class="form-control" style="width: 70%;" id="exampleSelect1">
+                <option>India</option>
+                <option>USA</option>
+                <option>Africa</option>
+                <option>Paris</option>
+                <option>Nepal</option>
+                <option>Bhutan</option>
+                <option>Sri Lanka</option>
+                <option>Russia</option>
+              </select>
+            </div>
           </div>
         </div>
         <div class="col-md-2">
           <div class="check-in">
             <h2>Check In</h2>
+            <div class="form-group row">
+              <div class="col-10">
+                <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-2">
           <div class="check-out">
             <h2>Check Out</h2>
+            <div class="form-group row">
+              <div class="col-10">
+                <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+              </div>
+            </div>
           </div>
 
         </div>
         <div class="col-md-2">
           <div class="adult">
             <h2>Adult</h2>
+            <div class="buttons " style=" width: 100%;display: flex; align-items: center;">
+              <input type="button" class="counter-btn" id="plusa" value="+" />
+              <input type="button" class="counter-btn" id="minusa" value="-" />
+              <h2 class="count" style="padding-left: 1rem;" id="valuea">5
+                <h2 />
+            </div>
           </div>
         </div>
-        <div class="col-md-2">
-          <div class="children">
+        <div class="col-md-2 ">
+          <div class="children justify-content-center">
             <h2>Children</h2>
+            <div class="buttons " style=" width: 100%;display: flex; align-items: center;">
+              <input type="button" class="counter-btn" id="plusc" value="+" />
+              <input type="button" class="counter-btn" id="minusc" value="-" />
+              <h2 class="count" style="padding-left: 1rem;" id="valuec">5
+                <h2 />
+            </div>
           </div>
         </div>
 
+        <div class="col-md-1">
+          <a href="#" style="font-size: 48px; color: white;">
+            <i href="#" class="fas fa-search-plus"></i>
+          </a>
+
+        </div>
+
+
+
+
       </div>
+    </div>
+
+    </div>
     </div>
   </section>
 
@@ -775,6 +813,8 @@
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous"></script>
   <script src="/js/main.js"></script>
+  <script src="/js/app.js"></script>
+
 </body>
 
 </html>
