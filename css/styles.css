@@ -182,7 +182,11 @@ MAIN PAGE
   font-size: 6rem;
   font-weight: 600;
 }
+.top-heading {
+  font-family: "Prata", serif;
+  font-weight: 800;
+}
 
-.text{
-  
+h5 {
+  color: red;
 }

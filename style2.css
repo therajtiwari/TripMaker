@@ -278,15 +278,48 @@ select option:first-child {
 
 .image-box {
   margin: 2rem 0rem;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    white 10%,
+    white 30%,
+    white 60%,
+    white 100%
+  );
 }
 
 .image-box img {
-  width: 80%;
+  width: 90%;
   margin: auto;
   border-radius: 5px;
   display: block;
+  box-shadow: 10px 10px 5px #ccc;
+  transition: transform 0.4s;
+}
+.image-box :hover {
+  transform: scale(1.1);
 }
 
 .top-dest-wrapper {
   margin: 0px 5rem !important;
+}
+
+.image-box h2 {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  color: white;
+}
+
+.section-info {
+  font-family: "Prata", serif;
+}
+
+.section-title {
+  font-family: "Prata", serif;
+}
+
+.section-subtitle {
+  display: flex;
+  flex-direction: column;
 }
