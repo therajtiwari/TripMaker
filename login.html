@@ -12,39 +12,72 @@
 </head>
 
 <body>
-    <form class="row gy-2 gx-3 align-items-center">
-        <div class="col-auto">
-            <label class="visually-hidden" for="autoSizingInput">Name</label>
-            <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
-        </div>
-        <div class="col-auto">
-            <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
-            <div class="input-group">
-                <div class="input-group-text">@</div>
-                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+    <div class='main-wrapper'>
+        <div class="container main-box">
+            <div class="row">
+                <div class="col-md-7 column">
+                    <img src="https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        class="main-img" alt="">
+                </div>
+                <div class="col-md-5  col-sm-12 form-col">
+
+                    <div class="form-wrapper">
+
+                        <div class="form-heading mb-4">
+                            <h2 style="text-align: left;">Register Now</h2>
+                        </div>
+                        <div class="main-form-wrapper">
+                            <form action="">
+                                <div class="row mb-3">
+                                    <div class="col ">
+                                        <input type="text" class="form-control" id="fname" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="lname" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="input-email" placeholder="Email">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="input-password"
+                                        placeholder="Password">
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="input-password-confirm"
+                                        placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group mb-3">
+
+                                    <select class="form-control" id="input-gender">
+                                        <option disabled selected> Select Gender</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" id="input-country" class="form-control" placeholder="Country">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="input-terms">
+                                    <label class="form-check-label" for="accept-terms">Accept Terms & Conditions</label>
+                                </div>
+
+                                <button type="submit" class="mb-3 btn btn-success">Submit</button>
+                                <h6>Already have an account? <a href="#">Login</a></h6>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
-        <div class="col-auto">
-            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
-            <select class="form-select" id="autoSizingSelect">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
-        </div>
-        <div class="col-auto">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-                <label class="form-check-label" for="autoSizingCheck">
-                    Remember me
-                </label>
-            </div>
-        </div>
-        <div class="col-auto">
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-    </form>
+    </div>
 
 
 
