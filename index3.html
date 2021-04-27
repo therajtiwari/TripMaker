@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.css">
+    <title>TravelMaster</title>
+</head>
+
+<body>
+    <header id="header">
+        <a href="" class="logo">Jungle</a>
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Destination</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <h2 id="text"><span>It's time for a new</span> <br>Adventure </h2>
+        <img src="/img/parallax/bird1.png" alt="" id="bird1">
+        <img src="/img/parallax/bird2.png" alt="" id="bird2">
+        <img src="/img/parallax/forest.png" alt="" id="forest">
+        <a href="" id="btn">Explore </a>
+        <img src="/img/parallax/rocks.png" alt="" id="rocks">
+        <img src="/img/parallax/water.png" alt="" id="water">
+    </section>
+    <div class="sec">
+        <h2>Parallax scroll</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quam distinctio esse aut laboriosam
+            ducimus laudantium ipsa eius consequuntur molestiae impedit minima sequi adipisci laborum quas cupiditate
+            error dolor, aperiam officia rem quo iste expedita sunt. Magni voluptates asperiores quae aspernatur
+            accusamus eius optio sapiente quisquam aliquid tempora dignissimos numquam architecto itaque doloremque
+            necessitatibus tenetur voluptatem esse vel blanditiis quaerat quia, fugit voluptatibus veritatis! Placeat
+            quos soluta ut ullam nisi! Sequi consequuntur expedita ad eaque rem odit beatae aspernatur harum pariatur ex
+            magni incidunt corporis, explicabo saepe, quos soluta aliquam. Eveniet quas repellat eum officiis tenetur
+            iure ad veritatis architecto dolore amet suscipit distinctio, expedita temporibus consequatur.
+            Exercitationem nesciunt labore quis quas vel consectetur delectus. Officiis neque magni a laborum?
+            Voluptatibus cumque asperiores rerum pariatur. Ullam culpa commodi tempora rem corrupti ad repellendus,
+            iure, neque at fugiat velit, totam sequi eius dicta adipisci facere voluptas. Quod facilis reiciendis
+            recusandae inventore ex modi. Consequatur at rem incidunt, ea distinctio vitae beatae debitis numquam, quas
+            non labore tempora ipsa quos? Consectetur illum animi eum in esse optio expedita enim? Enim aperiam
+            eligendi, obcaecati esse omnis aliquam eaque perferendis ipsam, voluptates officia tempora suscipit
+            reprehenderit a, laudantium laborum repellendus? Soluta quo reiciendis voluptate?</p>
+    </div>
+
+    <script>
+        let text = document.getElementById('text');
+        let bird1 = document.getElementById('bird1');
+        let bird2 = document.getElementById('bird2');
+        let btn = document.getElementById('btn');
+        let rocks = document.getElementById('rocks');
+        let forest = document.getElementById('forest');
+        let water = document.getElementById('water');
+        let haeder = document.getElementById('haeder');
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+
+
+            text.style.top = 50 + value * (-0.5) + '%';
+            bird1.style.top = value * (-1.5) + 'px';
+            bird1.style.left = value * (2) + 'px';
+            bird2.style.top = value * (-1.5) + 'px';
+            bird2.style.left = value * (-5) + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            rocks.style.top = value * (-0.12) + 'px';
+            forest.style.top = value * (0.25) + 'px';
+            header.style.top = value * (0.5) + 'px';
+        })
+
+
+
+    </script>
+
+</body>
+
+</html>

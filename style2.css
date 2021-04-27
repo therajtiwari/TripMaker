@@ -1,11 +1,14 @@
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  background-color: #f0f0f0;
 }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* overflow-x: hidden; */
+  /* max-width: 100%; */
 }
 /* global styles */
 
@@ -91,7 +94,7 @@ body {
 .nav-item {
   padding: 0rem 3rem;
 }
-.nav-link {
+.nav-link {#F0F0F0
   color: white !important;
   font-size: 1.2rem;
 }
@@ -142,9 +145,10 @@ body {
 }
 
 /* popular cards */
-.popular-heading {
+.heading {
   font-family: "Prata", serif;
-  padding: 4rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
   font-weight: 800;
 }
 
@@ -174,13 +178,6 @@ body {
   padding: 0;
   filter: blur(10px);
   /* overflow: auto;} */
-
-/* top dest cards */
-.top-heading {
-  font-family: "Prata", serif;
-  padding: 4rem;
-  font-weight: 800;
-}
 
 .dest-gallery {
   display: flex;
@@ -278,15 +275,8 @@ select option:first-child {
 }
 
 .image-box {
-  margin: 2rem 0rem;
+  padding: 2rem 0rem;
   width: 100%;
-  background: linear-gradient(
-    to bottom,
-    white 10%,
-    white 30%,
-    white 60%,
-    white 100%
-  );
 }
 
 .image-box img {
@@ -294,11 +284,14 @@ select option:first-child {
   margin: auto;
   border-radius: 5px;
   display: block;
-  box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #cccccc;
   transition: transform 0.4s;
+  opacity: 0.8;
+  /* background-color: #000; */
 }
 .image-box :hover {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 .top-dest-wrapper {
@@ -329,4 +322,104 @@ select option:first-child {
 .counter-btn {
   padding: 5px;
   margin: 5px;
+}
+
+/* *********************************** */
+/* gallery */
+/* *********************************** */
+
+.section-meals {
+  margin: auto;
+  padding: 0;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 80%;
+  margin: auto;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+/* *********************************** */
+/* gallery */
+/* *********************************** */
+
+
+
+
+/* *********************************** */
+/* testimonials */
+/* *********************************** */
+
+#testimonials{
+  
+  padding:80px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+	color: #fff;
+	background-attachment: fixed; /* Parallax effect bitches */
+}
+
+
+blockquote {
+	padding: 2%;
+	font-style: italic;
+	line-height: 1.5;
+	position: relative;
+	margin-top: 2rem;
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 4.5em;
+	display: block;
+	position: absolute;
+	top: -60px;
+	left: -3px;
+}
+
+
+cite {
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: 300;
+	margin-top: 25px;
+	display: block;
+}
+
+cite img {
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
 }
