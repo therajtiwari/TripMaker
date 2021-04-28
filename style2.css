@@ -720,6 +720,15 @@ box-shadow: 8px 8px 20px #888888;
 
 /* gallery */
 
+.gallery-heading::after{
+  display: block;
+  height: 2px;
+  background-color: var(--primary-y);
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
 .unit-1 {
   position: relative;
   width: 95%;
@@ -837,4 +846,16 @@ box-shadow: 8px 8px 20px #888888;
     width: 100%;
     padding: 3rem ;
   }
+}
+
+
+
+/* explore india */
+.inner-page-cover{
+  background-image: url(https://images.pexels.com/photos/3447333/pexels-photo-3447333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-attachment: fixed;
+}
+.site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover .row {
+  min-height: 600px;
+  height: calc(30vh);
 }
