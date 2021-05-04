@@ -80,32 +80,21 @@
 
 
         }
-        class App1 extends React.Component {
+        class App extends React.Component {
             render() {
                 return <div>
                     <BlogCard title="An Amazing Night In Egypt" postedBy="Admin" imgSrc="http://valueadzvisas.com/blogpic/large/1532953912EGYPT.jpg" />
-                </div>
-            }
-        }
-
-        class App2 extends React.Component {
-            render() {
-                return <div>
                     <BlogCard title="See the Northern Lights to Believe Them" postedBy="Raj " imgSrc="https://i.natgeofe.com/k/679e983c-4461-4398-bb6d-9b508fe3e4de/norway-northern-lights.jpg" />
-                </div>
-            }
-        }
-        class App3 extends React.Component {
-            render() {
-                return <div>
                     <BlogCard title="Bali- An Experience of a Lifetime" postedBy="Moderator" imgSrc="https://media-cdn.tripadvisor.com/media/photo-s/03/49/d1/b6/yande-ardana-photography.jpg" />
+
                 </div>
             }
         }
 
-        ReactDOM.render(<App1 />, document.getElementById('mydiv1'))
-        ReactDOM.render(<App2 />, document.getElementById('mydiv2'))
-        ReactDOM.render(<App3 />, document.getElementById('mydiv3'))
+
+
+        ReactDOM.render(<App />, document.getElementById('mydiv'))
+
     </script>
 
     <header>
@@ -317,9 +306,8 @@
                 <div class="col-md-8 col-sm-12 mt-sm-4 order-sm-1 order-md-2 order-1" style="min-height: 500px">
                     <div class="container-fluid">
                         <div class="row">
-                            <div id="mydiv1"></div>
-                            <div id="mydiv2"></div>
-                            <div id="mydiv3"></div>
+                            <div id="mydiv"></div>
+
                         </div>
                     </div>
                 </div>
@@ -330,7 +318,7 @@
         </div>
     </section>
 
-    <!-- <div style="padding: 1000px 0px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, ipsa? -->
+
     </div>
 
 

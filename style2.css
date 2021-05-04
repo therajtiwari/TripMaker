@@ -665,13 +665,11 @@ box-shadow: 8px 8px 20px #888888;
         margin-left: -3rem;
     }
 
-    .info-card:not(:last-child):hover,
-    .info-card:not(:last-child):focus-within {
+    .info-card:not(:last-child):hover {
         transform: translateY(-1rem);
     }
 
-    .info-card:not(:last-child):hover~.info-card,
-    .info-card:not(:last-child):focus-within~.info-card {
+    .info-card:not(:last-child):hover~.info-card {
         transform: translateX(6rem);
     }
 
