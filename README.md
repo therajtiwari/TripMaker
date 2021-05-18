@@ -27,7 +27,7 @@ Tripmaker is an aesthetic and fully responsive website made to help you choose y
 <img src="screenshots/ss5.png" width="80%">
 <br>
 <br>
-<img src="screenshots/ss6.png" width="80%">
+<img src="screenshots/ss6.png" width="50%">
 <br>
 <br>
  </p>
