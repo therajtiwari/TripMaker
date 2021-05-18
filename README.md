@@ -8,6 +8,7 @@ Tripmaker is an aesthetic and fully responsive website made to help you choose y
 - Bootstrap
 - ReactJS
 - AgularJS
+- JS Libraries such as Lightbox, Owl-Carousel, AnimateJs
 
 ## Screenshots
 
