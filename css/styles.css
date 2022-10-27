@@ -85,7 +85,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 20;
+  z-index: 200;
 }
 /* #carouselExampleIndicators {
   position: absolute;
@@ -100,11 +100,11 @@ body {
 }
 
 .nav-item {
-  padding: 0rem 3rem;
+  padding: 0rem 3.1rem;
 }
 .nav-link {
   color: black !important;
-  font-size: 1.2rem;
+  font-size: 1.22rem;
 }
 
 /* carousel  */
@@ -125,7 +125,7 @@ body {
   padding: 15px 35px;
   display: inline-block;
   margin-top: 15px;
-  color: #fff;
+  color: rgb(238, 238, 238);
   text-transform: uppercase;
   border-radius: 25px;
 }
@@ -146,7 +146,7 @@ body {
 }
 
 .carousel-caption h2 {
-  font-size: 50px;
+  font-size: 55px;
   font-family: "Prata", serif;
   letter-spacing: 1.2rem;
   font-weight: 600;
